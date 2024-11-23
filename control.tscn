@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://b8q3r07cubugm"]
+
+[ext_resource type="Script" path="res://Control.gd" id="1_bwsbm"]
+[ext_resource type="Texture2D" uid="uid://0ge17tnfbuto" path="res://icon.svg" id="2_mghbr"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_27nhy"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_bwsbm")
+
+[node name="Node2D" type="Node2D" parent="."]
+position = Vector2(34, 21)
+
+[node name="Sprite2D" type="Sprite2D" parent="Node2D"]
+modulate = Color(0.329699, 0.712541, 0.999831, 1)
+material = SubResource("CanvasItemMaterial_27nhy")
+position = Vector2(4363.63, 4011.19)
+scale = Vector2(79.8027, 70.6533)
+texture = ExtResource("2_mghbr")
